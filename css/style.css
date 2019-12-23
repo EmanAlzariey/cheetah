@@ -1,0 +1,9 @@
+.dev{
+    background-color: bisque;
+}
+.bg{
+    background-image: url("https://images.pexels.com/photos/612888/pexels-photo-612888.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+}
