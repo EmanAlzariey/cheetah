@@ -18,6 +18,19 @@
 .navList li {
     display: inline-block;
     margin: 23px;
+    text-decoration: none;
+}
+
+.navList a {
+    text-decoration: none;
+    color: hsl(7, 97.5%, 31.2%);
+    transition: all .4s ease;
+}
+
+.navList a:hover {
+    text-decoration: none;
+    color: rgb(107, 14, 2);
+    transition: all .4s ease;
 }
 
 #about {}
