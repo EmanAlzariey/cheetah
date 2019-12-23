@@ -11,27 +11,35 @@
 
 .navList {}
 
-.navList ul {}
-
-.navList li {}
-.about{
-
+.navList ul {
+    list-style: none;
 }
-.about img{
+
+.navList li {
+    display: inline-block;
+    margin: 23px;
+}
+
+#about {}
+
+.about img {
     width: 100%;
     border-radius: 1%;
 }
-.about h1{
+
+.about h1 {
     text-align: center;
     margin-bottom: 45px;
     margin-top: 30px;
     padding-bottom: 20px;
 }
-.about h3{
+
+.about h3 {
     text-align: left;
     padding: 15px 0px;
     margin: 10px 0px;
 }
-.about p{
+
+.about p {
     text-align: justify;
 }
