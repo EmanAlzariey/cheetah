@@ -1,8 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 29%;
+    margin-top: 22px;
+}
+
+.navList {}
+
+.navList ul {
+    list-style: none;
+}
+
+.navList li {
+    display: inline-block;
+    margin: 23px;
+}
+
+#about {}
+
+.about img {
+    width: 100%;
+    border-radius: 1%;
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.about h3 {
+    text-align: left;
+    padding: 15px 0px;
+    margin: 10px 0px;
+}
+
+.about p {
+    text-align: justify;
+}
+
 .dev{
     background-color: bisque;
 }
 .bg{
-    background-image: url("https://images.pexels.com/photos/612888/pexels-photo-612888.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image: url("https://t4.ftcdn.net/jpg/02/63/94/65/240_F_263946557_y7truPZJb64WcgugrTchHFKupeGFdt7S.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
