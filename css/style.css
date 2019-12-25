@@ -94,3 +94,59 @@
 .about p {
     text-align: justify;
 }
+/*Cars*/
+.mt{
+    margin-left: 90px;
+}
+.car h1{
+    text-align: center;
+    font-weight: bold;
+    color: #d49300;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+.spec {
+    position: absolute;
+    right: 30px; 
+    padding-left: 20px;
+   }
+
+.carText h1{
+    font-size: 45px;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+.carText h4{
+    font-size: 28px;
+    text-align: center;
+    color: #d00563;
+    font-weight: 600;
+}
+ .carText ul li{
+    border-bottom: 1px solid #efefef;
+    font-weight: bold;
+ }   
+.carImg img{
+width: 90%;
+} 
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 6px 10px;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+    margin-top: 15px;
+}
