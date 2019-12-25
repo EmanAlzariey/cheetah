@@ -149,4 +149,83 @@ width: 90%;
     border-radius: .25rem;
     transition: all .15s ease-in-out;
     margin-top: 15px;
+
+.dev{
+    background-color: bisque;
+}
+#services{
+    /* background-image: url("https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height:400px;
+    width:100%;
+    background-color: gray;
+}
+footer {
+    padding: 6em;
+    color: azure;
+    background-color: rgb(49, 47, 44);
+}
+
+footer .social {}
+
+footer a {
+    color: whitesmoke;
+}
+
+
+/*Contact*/
+.ser{
+    text-align: center;
+    border:1px solid orange;
+    border-radius: 20px;
+    width:30px;
+    margin-top: 30px;
+  margin-left: 70px;
+  padding: 30px;
+    background-color: #E8E3DA;
+
+}
+.heading{
+    margin-left: 450px;
+    margin-top: 70px;
+    color:orange;
+}
+#contactUs{
+ 
+    width: 500px;
+    height: 300px !important;
+}
+.serviceIcon{
+    text-align: center;
+}
+.serviceIcon i{
+    font-size: 50px;
+}
+.serviceText{
+    text-align: center;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#ShowHide {
+    display: none;
+}
+
+#findUs {
+    background: orangered;
+    color: whitesmoke;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+.nav img {
+    width: 15%;
+    height: 7vh;
+    position: relative;
+    top: 14px;
 }
