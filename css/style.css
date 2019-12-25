@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .logo img {
     width: 29%;
     margin-top: 22px;
@@ -94,115 +98,128 @@
 .about p {
     text-align: justify;
 }
-/*Cars*/
-.mt{
-    margin-left: 90px;
-}
-.car h1{
-    text-align: center;
-    font-weight: bold;
-    color: #d49300;
-    padding: 10px 0px;
-    margin-bottom: 30px;
-}
-.spec {
-    position: absolute;
-    right: 30px; 
-    padding-left: 20px;
-   }
 
-.carText h1{
-    font-size: 45px;
-    text-align: center;
-    color: blue;
-    font-weight: bold;
-}
-.carText h4{
-    font-size: 28px;
-    text-align: center;
-    color: #d00563;
-    font-weight: 600;
-}
- .carText ul li{
-    border-bottom: 1px solid #efefef;
-    font-weight: bold;
- }   
-.carImg img{
-width: 90%;
-} 
-.btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
-}
-.btn {
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: 6px 10px;
-    font-size: 1rem;
-    line-height: 1.25;
-    border-radius: .25rem;
-    transition: all .15s ease-in-out;
-    margin-top: 15px;
-
-.dev{
+.dev {
     background-color: bisque;
 }
-#services{
+
+#services {
     /* background-image: url("https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-repeat: no-repeat;
     background-size: cover; */
-    height:400px;
-    width:100%;
-    background-color: gray;
+    height: 400px;
+    width: 100%;
+    background-color: whitesmoke;
 }
+
 footer {
     padding: 6em;
     color: azure;
     background-color: rgb(49, 47, 44);
 }
 
-footer .social {}
+footer .social a {
+    color: #B1B1B1;
+    text-decoration: none;
+    font-size: 27px;
+    padding: 3px;
+    position: relative;
+    top: 13px;
+    transition: all .5s ease;
+}
+
+footer .social a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 27px;
+    padding: 3px;
+    position: relative;
+    top: 13px;
+}
 
 footer a {
+    color: whitesmoke;
+    transition: all .5s ease;
+}
+
+footer ul {
+    padding-top: 3px;
+}
+
+footer li {
+    line-height: 40px;
+}
+
+.linksFooter a {
+    color: #B1B1B1;
+}
+
+.linksFooter a:hover {
+    color: whitesmoke;
+}
+
+footer form input[type="text"] {
+    /* display: inline; */
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-top: 22px;
+}
+
+footer form input[type="button"] {
+    /* display: inline; */
+    /* border-bottom-style: solid;
+    border-bottom-width: 1px; */
+    margin-top: 22px;
+    position: relative;
+    top: -15px;
+    padding: 4px;
+}
+
+footer form input[type="button"]:hover {
+    /* display: inline; */
+    /* border-bottom-style: solid;
+    border-bottom-width: 1px; */
+    margin-top: 22px;
+    position: relative;
+    top: -15px;
+    padding: 4px;
     color: whitesmoke;
 }
 
 
 /*Contact*/
-.ser{
-    text-align: center;
-    border:1px solid orange;
-    border-radius: 20px;
-    width:30px;
-    margin-top: 30px;
-  margin-left: 70px;
-  padding: 30px;
-    background-color: #E8E3DA;
 
+.ser {
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 30px;
+    background-color: #E8E3DA;
 }
-.heading{
+
+.heading {
     margin-left: 450px;
     margin-top: 70px;
-    color:orange;
+    color: orange;
 }
-#contactUs{
- 
+
+#contactUs {
     width: 500px;
     height: 300px !important;
 }
-.serviceIcon{
+
+.serviceIcon {
     text-align: center;
 }
-.serviceIcon i{
+
+.serviceIcon i {
     font-size: 50px;
 }
-.serviceText{
+
+.serviceText {
     text-align: center;
 }
 
