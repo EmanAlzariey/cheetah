@@ -108,3 +108,15 @@
     clear: both;
     display: table;
   }
+
+  #ShowHide{
+    display: none;  
+  }
+  #findUs{
+      background: orangered;
+      color: whitesmoke;
+      padding:1%;
+      border-radius: 10%;
+  }
+
+  
