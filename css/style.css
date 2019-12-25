@@ -96,7 +96,7 @@
 }
 
 footer {
-    padding: 4em;
+    padding: 6em;
     color: azure;
     background-color: rgb(49, 47, 44);
 }
@@ -119,16 +119,22 @@ footer a {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  #ShowHide{
-    display: none;  
-  }
-  #findUs{
-      background: orangered;
-      color: whitesmoke;
-      padding:1%;
-      border-radius: 10%;
-  }
+#ShowHide {
+    display: none;
+}
 
-  
+#findUs {
+    background: orangered;
+    color: whitesmoke;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+.nav img {
+    width: 15%;
+    height: 7vh;
+    position: relative;
+    top: 14px;
+}
