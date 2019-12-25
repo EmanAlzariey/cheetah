@@ -98,19 +98,41 @@
 .dev{
     background-color: bisque;
 }
-.bg{
-    background-image: url("https://t4.ftcdn.net/jpg/02/63/94/65/240_F_263946557_y7truPZJb64WcgugrTchHFKupeGFdt7S.jpg");
+#services{
+    /* background-image: url("https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     height:400px;
+    width:100%;
+    background-color: gray;
 }
 /*Contact*/
+.ser{
+    text-align: center;
+    border:1px solid orange;
+    border-radius: 20px;
+    width:30px;
+    margin-top: 30px;
+  margin-left: 70px;
+  padding: 30px;
+    background-color: #E8E3DA;
 
+}
+.heading{
+    margin-left: 450px;
+    margin-top: 70px;
+    color:orange;
+}
 #contactUs{
     width: 500px;
     height:300px !important;
 }
-
+.serviceIcon{
+    text-align: center;
+}
+.serviceText{
+    text-align: center;
+}
 
 .clearfix {
     content: "";
