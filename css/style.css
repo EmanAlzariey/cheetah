@@ -94,3 +94,17 @@
 .about p {
     text-align: justify;
 }
+
+/*Contact*/
+
+#contactUs{
+    width: 500px;
+    height:300px !important;
+}
+
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+  }
