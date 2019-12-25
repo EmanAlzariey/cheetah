@@ -51,7 +51,9 @@ html {
     opacity: .4;
     right: 0px;
 }
-
+.aboute{
+    margin-left: 401px;
+}
 .textHeader {
     position: absolute;
     top: 50%;
@@ -64,7 +66,10 @@ html {
     font-weight: 600;
     font-size: 4em;
 }
-
+.servi{
+    margin-left: 435px;
+    margin-top: 20PX;
+}
 .textHeader h1 {
     font-weight: 300;
     color: azure;
@@ -75,11 +80,14 @@ html {
 
 /* About */
 
-#about {}
+.about {
+    background-color: #F3ECD0;
+}
 
 .about img {
     width: 100%;
     border-radius: 1%;
+    padding: 41px;
 }
 
 .about h1 {
@@ -87,6 +95,7 @@ html {
     margin-bottom: 45px;
     margin-top: 30px;
     padding-bottom: 20px;
+    margin-right: 453px;
 }
 
 .about h3 {
@@ -107,13 +116,13 @@ html {
     /* background-image: url("https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-repeat: no-repeat;
     background-size: cover; */
-    height: 400px;
+    height: 498px;
     width: 100%;
     background-color: whitesmoke;
 }
 
 footer {
-    padding: 6em;
+    padding: 4em;
     color: azure;
     background-color: rgb(49, 47, 44);
 }
@@ -201,9 +210,9 @@ footer form input[type="button"]:hover {
 }
 
 .heading {
-    margin-left: 450px;
-    margin-top: 70px;
-    color: orange;
+    /* margin-left: 450px;
+    margin-top: 70px; */
+    color: #d49300;
 }
 
 #contactUs {
@@ -284,8 +293,8 @@ footer form input[type="button"]:hover {
   } 
   .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #FAAA00;
+    border-color: #FAAA00;
   }
   .btn {
     display: inline-block;
