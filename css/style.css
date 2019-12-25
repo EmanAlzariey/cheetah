@@ -71,11 +71,14 @@
 
 /* About */
 
-#about {}
+.about {
+    background-color: #F3ECD0;
+}
 
 .about img {
     width: 100%;
     border-radius: 1%;
+    padding: 41px;
 }
 
 .about h1 {
@@ -83,6 +86,7 @@
     margin-bottom: 45px;
     margin-top: 30px;
     padding-bottom: 20px;
+    margin-right: 453px;
 }
 
 .about h3 {
@@ -104,10 +108,10 @@
     background-size: cover; */
     height:400px;
     width:100%;
-    background-color: gray;
+    background-color: white;
 }
 footer {
-    padding: 6em;
+    padding: 4em;
     color: azure;
     background-color: rgb(49, 47, 44);
 }
@@ -155,22 +159,19 @@ footer a {
     content: "";
     clear: both;
     display: table;
-}
+  }
 
-#ShowHide {
-    display: none;
+  #ShowHide{
+    display: none;  
+  }
+  #findUs{
+      background: orangered;
+      color: whitesmoke;
+      padding:1%;
+      border-radius: 10%;
+  }
+.singleAbout{
+    width:500px;
+    margin-left: 30px;
 }
-
-#findUs {
-    background: orangered;
-    color: whitesmoke;
-    padding: 1%;
-    border-radius: 10%;
-}
-
-.nav img {
-    width: 15%;
-    height: 7vh;
-    position: relative;
-    top: 14px;
-}
+  
