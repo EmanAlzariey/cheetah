@@ -106,6 +106,19 @@
     width:100%;
     background-color: gray;
 }
+footer {
+    padding: 4em;
+    color: azure;
+    background-color: rgb(49, 47, 44);
+}
+
+footer .social {}
+
+footer a {
+    color: whitesmoke;
+}
+
+
 /*Contact*/
 .ser{
     text-align: center;
@@ -124,11 +137,15 @@
     color:orange;
 }
 #contactUs{
+ 
     width: 500px;
-    height:300px !important;
+    height: 300px !important;
 }
 .serviceIcon{
     text-align: center;
+}
+.serviceIcon i{
+    font-size: 50px;
 }
 .serviceText{
     text-align: center;
@@ -139,3 +156,15 @@
     clear: both;
     display: table;
   }
+
+  #ShowHide{
+    display: none;  
+  }
+  #findUs{
+      background: orangered;
+      color: whitesmoke;
+      padding:1%;
+      border-radius: 10%;
+  }
+
+  
