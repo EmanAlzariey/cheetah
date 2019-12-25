@@ -18,7 +18,58 @@
 .navList li {
     display: inline-block;
     margin: 23px;
+    text-decoration: none;
 }
+
+.navList a {
+    text-decoration: none;
+    color: hsl(7, 97.5%, 31.2%);
+    transition: all .4s ease;
+}
+
+.navList a:hover {
+    text-decoration: none;
+    color: rgb(107, 14, 2);
+    transition: all .4s ease;
+}
+
+.backImg img {
+    width: 100%;
+    height: 100vh;
+}
+
+.backImg::before {
+    content: "";
+    background-color: rgb(84, 85, 85);
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    opacity: .4;
+    right: 0px;
+}
+
+.textHeader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+}
+
+.textHeader h1 {
+    font-weight: 600;
+    font-size: 4em;
+}
+
+.textHeader h1 {
+    font-weight: 300;
+    color: azure;
+    position: relative;
+    z-index: 1000;
+}
+
+
+/* About */
 
 #about {}
 
@@ -53,3 +104,16 @@
     background-size: cover;
     height:400px;
 }
+/*Contact*/
+
+#contactUs{
+    width: 500px;
+    height:300px !important;
+}
+
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+  }
