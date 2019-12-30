@@ -59,6 +59,7 @@ html {
 }
 .aboute{
     margin-left: 401px;
+
 }
 .textHeader {
     position: absolute;
@@ -87,7 +88,9 @@ html {
 /* About */
 
 .about {
-    background-color: #F3ECD0;
+    /* background-color: #F3ECD0; */
+    
+    
 }
 
 .about img {
@@ -124,7 +127,9 @@ html {
     background-size: cover; */
     height: 498px;
     width: 100%;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    /* background-color: #730202; */
+    background-color: #F2852A;
 }
 
 footer {
@@ -317,3 +322,19 @@ footer form input[type="button"]:hover {
     transition: all .15s ease-in-out;
     margin-top: 15px;
   }
+
+  .ch-logo{
+      width: 50%;
+  }
+
+  .ch-logo img {
+    widows: 100%;
+}
+  
+.servi h1{
+    color: white;
+}
+
+#about{
+    padding: 5rem;
+}
