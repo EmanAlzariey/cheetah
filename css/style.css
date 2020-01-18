@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+main{
+    overflow-x: hidden;
 }
 
 html {
@@ -53,6 +59,7 @@ html {
 }
 .aboute{
     margin-left: 401px;
+
 }
 .textHeader {
     position: absolute;
@@ -81,7 +88,9 @@ html {
 /* About */
 
 .about {
-    background-color: #F3ECD0;
+    /* background-color: #F3ECD0; */
+    
+    
 }
 
 .about img {
@@ -118,7 +127,9 @@ html {
     background-size: cover; */
     height: 498px;
     width: 100%;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    /* background-color: #730202; */
+    background-color: #F2852A;
 }
 
 footer {
