@@ -154,7 +154,7 @@ textarea {
 
 textarea:focus,
 input:focus {
-    border-color: transparent !important;
+   
 }
 
 input:focus::-webkit-input-placeholder {
@@ -356,7 +356,6 @@ iframe {
     margin-bottom: 22px; */
     /* top: 5%; */
     margin-bottom: -89px;
-    border-bottom: 1px solid #b2b2b2;
     
 }
 
