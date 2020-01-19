@@ -14,122 +14,11 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* logo in footer */
 .logo img {
     width: 29%;
     margin-top: 22px;
-}
-
-.navList {}
-
-.navList ul {
-    list-style: none;
-}
-
-.navList li {
-    display: inline-block;
-    margin: 23px;
-    text-decoration: none;
-}
-
-.navList a {
-    text-decoration: none;
-    color: hsl(7, 97.5%, 31.2%);
-    transition: all .4s ease;
-}
-
-.navList a:hover {
-    text-decoration: none;
-    color: rgb(107, 14, 2);
-    transition: all .4s ease;
-}
-
-.backImg img {
-    width: 100%;
-    height: 100vh;
-}
-
-.backImg::before {
-    content: "";
-    background-color: rgb(84, 85, 85);
-    width: 100%;
-    position: absolute;
-    height: 100vh;
-    opacity: .4;
-    right: 0px;
-}
-.aboute{
-    margin-left: 401px;
-
-}
-.textHeader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: azure;
-}
-
-.textHeader h1 {
-    font-weight: 600;
-    font-size: 4em;
-}
-.servi{
-    margin-left: 435px;
-    margin-top: 20PX;
-}
-.textHeader h1 {
-    font-weight: 300;
-    color: azure;
-    position: relative;
-    z-index: 1000;
-}
-
-
-/* About */
-
-.about {
-    /* background-color: #F3ECD0; */
-    
-    
-}
-
-.about img {
-    width: 100%;
-    border-radius: 1%;
-    padding: 41px;
-}
-
-.about h1 {
-    text-align: center;
-    margin-bottom: 45px;
-    margin-top: 30px;
-    padding-bottom: 20px;
-    margin-right: 453px;
-}
-
-.about h3 {
-    text-align: left;
-    padding: 15px 0px;
-    margin: 10px 0px;
-}
-
-.about p {
-    text-align: justify;
-}
-
-.dev {
-    background-color: bisque;
-}
-
-#services {
-    /* background-image: url("https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-repeat: no-repeat;
-    background-size: cover; */
-    height: 498px;
-    width: 100%;
-    /* background-color: whitesmoke; */
-    /* background-color: #730202; */
-    background-color: #F2852A;
 }
 
 footer {
@@ -179,16 +68,12 @@ footer li {
 }
 
 footer form input[type="text"] {
-    /* display: inline; */
     border-bottom-style: solid;
     border-bottom-width: 1px;
     margin-top: 22px;
 }
 
 footer form input[type="button"] {
-    /* display: inline; */
-    /* border-bottom-style: solid;
-    border-bottom-width: 1px; */
     margin-top: 22px;
     position: relative;
     top: -15px;
@@ -196,9 +81,6 @@ footer form input[type="button"] {
 }
 
 footer form input[type="button"]:hover {
-    /* display: inline; */
-    /* border-bottom-style: solid;
-    border-bottom-width: 1px; */
     margin-top: 22px;
     position: relative;
     top: -15px;
@@ -221,8 +103,6 @@ footer form input[type="button"]:hover {
 }
 
 .heading {
-    /* margin-left: 450px;
-    margin-top: 70px; */
     color: #d49300;
 }
 
@@ -231,110 +111,518 @@ footer form input[type="button"]:hover {
     height: 300px !important;
 }
 
-.serviceIcon {
-    text-align: center;
-}
-
-.serviceIcon i {
-    font-size: 50px;
-}
-
-.serviceText {
-    text-align: center;
-}
-
 .clearfix {
     content: "";
     clear: both;
     display: table;
 }
 
-#ShowHide {
+/* #ShowHide {
     display: none;
-}
+} */
 
 #findUs {
-    background: orangered;
+    background: rgb(216, 112, 74);
     color: whitesmoke;
     padding: 1%;
     border-radius: 10%;
 }
 
-.nav img {
-    width: 15%;
-    height: 7vh;
+/* from main */
+/*//////////////////////////////////////////////////////////////////*/
+
+input {
+    outline: none;
+    border: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+textarea {
+    outline: none;
+    border: none;
+}
+
+textarea:focus,
+input:focus {
+    border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+input::-webkit-input-placeholder {
+    color: #999999;
+}
+
+input:-moz-placeholder {
+    color: #999999;
+}
+
+input::-moz-placeholder {
+    color: #999999;
+}
+
+input:-ms-input-placeholder {
+    color: #999999;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #999999;
+}
+
+textarea:-moz-placeholder {
+    color: #999999;
+}
+
+textarea::-moz-placeholder {
+    color: #999999;
+}
+
+textarea:-ms-input-placeholder {
+    color: #999999;
+}
+
+
+/*---------------------------------------------*/
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+iframe {
+    border: none !important;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Contact ]*/
+
+.container-contact100 {
+    width: 100%;
+    height: 510px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px; */
+    background: transparent;
     position: relative;
-    top: 14px;
+    z-index: 1;
+    background: #3b3937;
 }
-/*Cars*/
-.mt{
-    margin-left: 90px;
-  }
-  .car h1{
-    text-align: center;
-    font-weight: bold;
-    color: #d49300;
-    padding: 10px 0px;
-    margin-bottom: 30px;
-  }
-  .spec {
+
+.contact100-map {
     position: absolute;
-    right: 30px; 
-    padding-left: 20px;
-   }
-  
-  .carText h1{
-    font-size: 45px;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.wrap-contact100 {
+    width: 480px;
+    height: 470px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/*==================================================================
+[ Title form ]*/
+
+.contact100-form-title {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 20px 64px 15px;
+}
+
+.ContactForm-title {
+    font-family: Poppins-Bold;
+    font-size: 20px;
+    /* color: #fff; */
+    line-height: 1.2;
     text-align: center;
-    color: blue;
-    font-weight: bold;
-  }
-  .carText h4{
-    font-size: 28px;
+    padding-bottom: 7px;
+}
+
+.ContactForm-title2 {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    /* color: #fff; */
+    line-height: 1.5;
     text-align: center;
-    color: #d00563;
-    font-weight: 600;
-  }
-  .carText ul li{
-    border-bottom: 1px solid #efefef;
-    font-weight: bold;
-  }   
-  .carImg img{
-  width: 90%;
-  } 
-  .btn-primary {
+}
+
+.contact100-form-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(54, 84, 99, 0.7);
+}
+
+
+/*==================================================================
+[ Form ]*/
+
+.contact100-form {
+    width: 90%;
+    height: 380px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 24px 7px 0px 140px;
+}
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+    width: 100%;
+    /* position: relative; */
+    /* border-bottom: 1px solid #b2b2b2;
+    margin-bottom: 22px; */
+    /* top: 5%; */
+    margin-bottom: -89px;
+    border-bottom: 1px solid #b2b2b2;
+    
+}
+
+.label-input100 {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    text-align: right;
+    position: absolute;
+    top: 14px;
+    left: -105px;
+    width: 80px;
+}
+
+
+/*---------------------------------------------*/
+
+.input100 {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    background: transparent;
+    padding: 0 5px;
+}
+
+.focus-input100 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    /* background: #57b8463f; */
+}
+
+.focus-input100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    /* background: #57b846; */
+}
+
+
+/*---------------------------------------------*/
+
+input.input100 {
+    height: 45px;
+}
+
+textarea.input100 {
+    min-height: 115px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+}
+
+.input100:focus+.focus-input100::before {
+    width: 100%;
+}
+
+.has-val.input100+.focus-input100::before {
+    width: 100%;
+}
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+
+.container-contact100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+
+.contact100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 100px;
+    height: 50px;
+    background: rgb(216, 112, 74);
+    border-radius: 20px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
     color: #fff;
-    background-color: #FAAA00;
-    border-color: #FAAA00;
-  }
-  .btn {
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: 6px 10px;
-    font-size: 1rem;
-    line-height: 1.25;
-    border-radius: .25rem;
-    transition: all .15s ease-in-out;
-    margin-top: 15px;
-  }
-
-  .ch-logo{
-      width: 50%;
-  }
-
-  .ch-logo img {
-    widows: 100%;
-}
-  
-.servi h1{
-    color: white;
+    line-height: 1.2;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    /* keep this */
+    position: relative;
+    top: 50%;
+    left: 16%;
 }
 
-#about{
-    padding: 5rem;
+.contact100-form-btn i {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
 }
+
+.contact100-form-btn:hover {
+    background-color: #333333;
+}
+
+.contact100-form-btn:hover i {
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.validate-input {
+    position: relative;
+}
+
+.alert-validate::before {
+    content: attr(data-validate);
+    position: absolute;
+    max-width: 70%;
+    background-color: #fff;
+    border: 1px solid #c80000;
+    border-radius: 2px;
+    padding: 4px 25px 4px 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 2px;
+    pointer-events: none;
+    font-family: Poppins-Medium;
+    color: #c80000;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+
+.alert-validate::after {
+    content: "\f06a";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    color: #c80000;
+    font-size: 15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 8px;
+}
+
+.alert-validate:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 992px) {
+    .alert-validate::before {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+/* from contact.css */
+
+
+input {
+    font-size: 13px;
+    height: 25px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #B1B1B1;
+    color: #B1B1B1;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0.5;
+    transition: 0.2s ease;
+}
+
+input:focus {
+    outline: none;
+    opacity: 1;
+    
+}
+
+label {
+    color: #B1B1B1;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 15px;
+    opacity: 0.5;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+
+/* active state */
+
+input:focus~label,
+input:valid~label {
+    top: -10px;
+    font-size: 12px;
+    color: #B1B1B1;
+    opacity: 1;
+}
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+
+/* active state */
+
+input:focus~.highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
