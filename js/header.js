@@ -1,4 +1,4 @@
-//BIO text changing
+//text changing
 ! function($) {
 
     "use strict";
@@ -481,3 +481,7 @@ function handleTyping (arr) {
  const arr=["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste."]
  handleTyping(arr);
   
+//nav script
+
+ 
+
