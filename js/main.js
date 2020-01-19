@@ -311,3 +311,31 @@
 
 
 })(jQuery);
+
+
+//pop up contact card
+
+function openBox() {
+    var j = jQuery; //Prevent jQuery conflicts by using J
+
+    var overlayCls = ".overlay" //Overlay class
+    var contentWidth = j(document).width() / 2; //Document width dived by 2
+    var contentHeight = j(window).height() - 50; //Window height minus 50px
+
+    j(".layer-inner").css({
+        "width": contentWidth, //Set width based on document width
+        "max-height": contentHeight //Set max height based on window height
+    });
+
+    j(overlayCls).fadeToggle(); //Fadein
+
+    j(".close").click(function () {
+        j(overlayCls).fadeOut(); //Fade out when closebutton is clicked
+    });
+
+    j(document).keyup(function (e) {
+        if (e.keyCode == 27) { // Close lightbox when escape key is clicked
+            j(overlayCls).fadeOut();
+        }
+    });
+};

@@ -7,14 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cheeta</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <link rel="stylesheet" href="./images/icons/icon fontawesome/icomoon.css">
     <!-- google api -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
-
+    <link rel="stylesheet" href="./js/vendor/bootstrap/css/bootstrap.min.css">
 
 </head>
 
@@ -22,6 +19,71 @@
 
     <main>
 
+        <!-- start -->
+        <a class="open" onclick="openBox()" id='FindUs'>Find Us</a>
+        <div class="overlay" style="display:none;">
+            <div class="layer-outer">
+                <div class="layer-inner">
+                    <span class="close">X Close</span>
+                    <div class="content">
+                        <div class="wrap-contact100">
+                            <!-- <div class="contact100-form-title"
+                                style="background-image: url(images/bg-01.jpg); height:10px">
+                                <span class="contact100-form-title-1">
+                                    Contact Us
+                                </span>
+
+                                <span class="contact100-form-title-2">
+                                    Feel free to drop us a line below!
+                                </span>
+                            </div>  -->
+                            <div class='ContactForm-title'>Contact Us</div>
+                            <div class='ContactForm-title2'>Feel free to drop us a line below!</div>
+
+                            <form class=" contact100-form validate-form">
+                                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                                    <span class="label-input100">Full Name:</span>
+                                    <input class="input100" type="text" name="name" placeholder="Enter full name">
+                                    <span class="focus-input100"></span>
+                                </div>
+
+                                <div class="wrap-input100 validate-input"
+                                    data-validate="Valid email is required: ex@abc.xyz">
+                                    <span class="label-input100">Email:</span>
+                                    <input class="input100" type="text" name="email" placeholder="Enter email addess">
+                                    <span class="focus-input100"></span>
+                                </div>
+
+                                <div class="wrap-input100 validate-input" data-validate="Phone is required">
+                                    <span class="label-input100">Phone:</span>
+                                    <input class="input100" type="text" name="phone" placeholder="Enter phone number">
+                                    <span class="focus-input100"></span>
+                                </div>
+
+                                <div class="wrap-input100 validate-input" data-validate="Message is required">
+                                    <span class="label-input100">Message:</span>
+                                    <textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
+                                    <span class="focus-input100"></span>
+                                </div>
+
+                                <div class="container-contact100-form-btn">
+                                    <button class="contact100-form-btn">
+                                        <span>
+                                            Submit
+                                            <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- End Contact us -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end -->
 
         <section id="contact">
             <div class="row">
@@ -32,7 +94,10 @@
                             data-map-y="44.1965417" data-pin="images/icons/map-marker.png" data-scrollwhell="0"
                             data-draggable="1"></div>
 
-                        <div class="wrap-contact100">
+
+
+
+                        <div class="wrap-contact100" id='ShowHide'>
                             <!-- <div class="contact100-form-title"
                                 style="background-image: url(images/bg-01.jpg); height:10px">
                                 <span class="contact100-form-title-1">
@@ -144,6 +209,7 @@
 
     <!--===============================================================================================-->
     <script src="./js/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="./js/vendor/bootstrap/js/bootstrap.min.js"></script>
     <!--===============================================================================================-->
 
     <!-- Get google map from API -->
